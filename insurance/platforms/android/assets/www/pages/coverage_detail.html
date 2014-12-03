@@ -1,0 +1,53 @@
+<div id="coverageDetailPage" data-role="page" data-class="com/views/CoverageDetailPageView">
+	
+	<div data-role="header" data-theme="b" data-position="fixed" data-tap-toggle="false">
+		<a data-rel="back" data-role="button" data-icon="back" data-iconpos="notext" data-theme="d">%label.back%</a>
+		<h1>%title.coverage.detail%</h1>
+		<a href="home.html" data-icon="home" data-role="button" data-iconpos="notext" data-theme="d"></a>
+	</div>
+
+	<div data-role="content">
+		
+		<h2 id="coverageName">Uninsured Motorist</h2>
+	    
+	    <ul id="currentLimit" data-role="listview" data-inset="false" data-theme="e" data-divider-theme="e">
+	   		<li data-role="list-divider">%coverage.detail.limit.title%</li>
+	  		<li id="currentLimitContent">$100,000/$300,000</li>
+	    </ul>
+	    
+	    <ul id="definition" data-role="listview" data-inset="false" data-theme="e" data-divider-theme="e">
+	   		<li data-role="list-divider">%coverage.detail.definition.title%</li>
+	  		<li id="definitionContent">Uninsured Motorist coverage pays for injuries to driver under policy and passengers when there is an accident found responsible for by the other driver who is considered "uninsured", up to your policy limits.</li>
+	    </ul>
+	    
+        <div>
+	  		<a id="moreHelp" data-rel="external" href="#"><h2>%coverage.detail.help%</h2></a>
+	  	</div>
+	  	
+	    <ul id="covered" data-role="listview" data-inset="false" data-theme="e" data-divider-theme="e">
+	   		<li data-role="list-divider">%coverage.detail.whats.covered.title%</li>
+	  		<li id="coveredContent">Medical expenses, property damage expenses that exceed the payment limits carried by a driver who is considered uninsured.</li>
+	    </ul>
+	    
+	    <ul id="addition" data-role="listview" data-inset="false" data-theme="e" data-divider-theme="e">
+	   		<li data-role="list-divider">%coverage.detail.addition.title%</li>
+	  		<li id="additionContent">
+	  			<h3>%coverage.detail.addition.subtitle%</h3>
+	  			<div></div>
+	  			<div class="radioList">
+		              <input type="radio" data-theme="e" name="radio-choice-v-2" id="yesRadio" value="yes">
+		              <label for="yesRadio">%coverage.detail.yes.option%</label>
+		              <input type="radio" data-theme="e" name="radio-choice-v-2" id="noRadio" value="no" checked="checked">
+		              <label for="noRadio">%coverage.detail.no.option%</label>
+				</div>
+	  		</li>
+	    </ul>
+	    
+	    <div id="updateButtonDiv">
+		    <button id="updateBtn" data-role="button" data-theme="b">
+						%label.update%</button>
+		</div>
+	</div>
+	
+</div>
+		

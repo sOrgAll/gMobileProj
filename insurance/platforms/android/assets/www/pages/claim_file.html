@@ -1,0 +1,28 @@
+<div id="claimFilePage" data-role="page">
+		
+	<div data-role="header" data-theme="b" data-position="fixed"  data-tap-toggle="false">
+		<a data-rel="back" data-role="button" data-icon="back" data-iconpos="notext" data-theme="d">%label.back%</a>
+		<h1>%claims.type.title%</h1>
+		<a href="home.html" data-icon="home" data-role="button" data-iconpos="notext" data-theme="d"></a>
+	</div>
+	
+	<div data-role="content">
+		<ul id="claimTypeList" data-role="listview" data-inset="false" data-theme="e" 
+			data-divider-theme="e">
+			<li data-role="list-divider" class="small">%claims.type.select%</li>
+			
+			<li class="claim" data-id="accidentReport">
+				<a href="accident_report.html">%claims.type.accident%</a>
+			</li>
+			
+			<li class="claim" data-id="typeTwo">
+				<a href="#">%claims.type.type.windshield%</a>
+			</li>
+			
+			<li class="claim" data-id="typeThree">
+				<a href="#">%claims.type.type.thirdparty%</a>
+			</li>
+		</ul>
+	</div>
+	
+</div>

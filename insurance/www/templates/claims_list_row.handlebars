@@ -1,0 +1,18 @@
+	{{#each claims}}
+	
+			{{#if this.isOpen}}
+	<li class="openClaim" data-id="{{this.claimId}}">
+			<a data-rel="external" href="#">
+			<h3>{{this.status}}: {{this.policeCase}} </h3>
+			<p>{{this.date}}</p>
+			</a>
+	</li>
+			{{else}}
+	<li class="closedClaim" data-id="{{this.claimId}}">
+			<a data-rel="external" href="#">
+			<h3>{{this.status}}: {{this.policeCase}} </h3>
+			<p>{{this.date}}</p>
+			{{/if}}	
+			</a>
+	</li>
+	{{/each}}

@@ -1,0 +1,51 @@
+<div id="changeLicenseInfoPage" class="fullScreenPopover" data-role="page" data-class="com/views/ChangeLicenseInfoPageView" data-close-btn="none">
+	
+	<div id = "ChangeLicenseInfoPageHeader" data-role="header" data-theme="b" data-position="fixed">
+		<a id="backBtn" class="ui-btn-right greyBtn" data-role="none">%label.cancel%</a>
+		<h1>%driver.license.change.title%</h1>
+	</div>
+	
+
+	<ul id="licenseChangeList" data-role="listview" data-inset="false" 
+		data-theme="e" data-divider-theme="e">
+		<li data-role="list-divider">%driver.license.change.overview.title%</li>
+		<li id="overviewContent">
+			%driver.license.change.overview.content%
+		</li>
+		
+		<li data-role="list-divider">%driver.license.change.expiration.title%</li>
+		<li>
+		<label for="yearSelection">Year</label>
+		<select id="yearSelection" data-theme="e">
+		</select>
+			
+		<label for="monthSelection">Month</label>
+		<select id="monthSelection" data-theme="e">
+		</select>
+			
+		<label for="daySelection">Day</label>
+		<select id="daySelection" data-theme="e">
+		</select>
+		</li>	
+		
+		<li data-role="list-divider">%driver.license.change.number.title%</li>
+		<li>
+		<input id="licenseNumberText" data-theme="e" name="licenseNumberText" type="text" data-clear-btn="true" value="D2938472"/>
+		</li>
+		
+		
+		<li data-role="list-divider">%driver.license.change.state.title%</li>
+		<li>
+		<select id="stateSelection" data-theme="e">
+			
+		</select>
+		</li>
+		
+		
+	</ul>
+	<div class="col-xs-12">
+		<button id="updateBtn" data-role="button" data-theme="b">%label.update%</button>
+	</div>
+	
+			
+</div>

@@ -1,0 +1,26 @@
+<div id="billingPage" data-role="page" data-class="com/views/CheckPageView">
+	
+	<div data-role="header" data-theme="b" data-position="fixed">
+		<a data-rel="back" data-role="button" data-icon="back" data-iconpos="notext" data-theme="d">%label.back%</a>
+		<h1>%title.check%</h1>
+	</div>
+	
+	<div id="checkImageWrapper" data-role="content"></div>
+	
+	<ul data-role="listview" data-inset="false" data-theme="e" data-divider-theme="e">
+		<li data-role="list-divider">Routing Number</li>
+		<li><input id="routingNum" type="text"/></li>
+		<li data-role="list-divider">Checking Account</li>
+		<li><input id="checkingNum" type="text"/></li>
+	</ul>
+	
+	<div class="row">
+		<div class="col-sm-6">
+			<button id="acceptBtn" data-theme="b">Accept</button>
+		</div>
+		<div class="col-sm-6">
+			<button id="againBtn" data-theme="d">Try Again</button>
+		</div>
+	</div>
+		
+</div>

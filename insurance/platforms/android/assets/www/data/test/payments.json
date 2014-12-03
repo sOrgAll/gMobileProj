@@ -1,0 +1,71 @@
+[{
+	"paymentId": 1,
+	"amount": 91.2,
+	"date": "2013-08-15",
+	"paymentType": "Checking Account",
+	"payChannel": "Auto",
+	"billingId": 1
+},{
+	"paymentId": 2,
+	"amount": 91.2,
+	"date": "2013-09-15",
+	"paymentType": "Credit Card",
+	"payChannel": "Auto",
+	"billingId": 1
+},{
+	"paymentId": 3,
+	"amount": 91.2,
+	"date": "2013-10-15",
+	"paymentType": "Checking Account",
+	"payChannel": "Auto",
+	"billingId": 1
+},{
+	"paymentId": 4,
+	"amount": 91.2,
+	"date": "2013-11-15",
+	"paymentType": "Credit Card",
+	"payChannel": "Auto",
+	"billingId": 1
+},{
+	"paymentId": 5,
+	"amount": 91.2,
+	"date": "2013-12-15",
+	"paymentType": "Checking Account",
+	"payChannel": "Auto",
+	"billingId": 1
+},{
+	"paymentId": 6,
+	"amount": 95.2,
+	"date": "2014-01-15",
+	"paymentType": "Checking Account",
+	"payChannel": "Auto",
+	"billingId": 1
+},{
+	"paymentId": 7,
+	"amount": 95.2,
+	"date": "2014-02-15",
+	"paymentType": "Credit Card",
+	"payChannel": "Manual",
+	"billingId": 1
+},{
+	"paymentId": 8,
+	"amount": 95.2,
+	"date": "2014-03-15",
+	"paymentType": "Checking Account",
+	"payChannel": "Auto",
+	"billingId": 1
+},{
+	"paymentId": 9,
+	"amount": 95.2,
+	"date": "2014-04-15",
+	"paymentType": "Credit Card",
+	"payChannel": "Manual",
+	"billingId": 1
+},{
+	"paymentId": 10,
+	"amount": 95.2,
+	"date": "2014-05-15",
+	"paymentType": "Checking Account",
+	"payChannel": "Auto",
+	"billingId": 1
+}]

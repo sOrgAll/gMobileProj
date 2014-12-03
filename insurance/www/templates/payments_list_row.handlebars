@@ -1,0 +1,6 @@
+{{#each payments}}
+	<li class="payment" data-id="{{this.paymentId}}">
+		<h3>{{this.type}}</h3>
+		<p>{{this.amount}} on {{this.date}}</p>
+	</li>
+{{/each}}

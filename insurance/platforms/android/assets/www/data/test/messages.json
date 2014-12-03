@@ -1,0 +1,81 @@
+[{
+	"messageId":1,
+	"subject":"Welcome to Insurance Co.",
+	"date":"2013-10-30",
+	"content":"Hi and welcome to Insurance Co., this is an all-in-one app for managing your account. To get started, set up your preferences for your notificaitons.",
+	"requiredAction":true,
+	"isRead":false,
+	"userId":1
+},{
+	"messageId":2,
+	"subject":"Your December Bill is Ready",
+	"date":"2013-12-10",
+	"content":"The most recent statement for your account is now available.",
+	"requiredAction":true,
+	"isRead":false,
+	"userId":1
+},{
+	"messageId":3,
+	"subject":"Reminder: Payment Due",
+	"date":"2013-12-27",
+	"content":"Your new payment is due on 01/03/2014. ",
+	"requiredAction":false,
+	"isRead":false,
+	"userId":1
+},{
+	"messageId":4,
+	"subject":"New Payment Received",
+	"date":"2014-01-14",
+	"content":"Thank you for your recent payment. It will be reflected in the January billing cycle.",
+	"requiredAction":false,
+	"isRead":true,
+	"userId":1
+},{
+	"messageId":5,
+	"subject":"Your January Bill is Ready",
+	"date":"2014-01-20",
+	"content":"The most recent statement for your account is now available.",
+	"requiredAction":false,
+	"isRead":false,
+	"userId":1
+},{
+	"messageId":6,
+	"subject":"New Payment Received",
+	"date":"2014-02-06",
+	"content":"Thank you for your recent payment. It will be reflected in the February billing cycle.",
+	"requiredAction":false,
+	"isRead":true,
+	"userId":1
+},{
+	"messageId":7,
+	"subject":"New Policy Changes",
+	"date":"2014-02-12",
+	"content":"We're committed to keeping your personal information safe and secure. There are new changes in the privacy policy. Learn more by visiting ",
+	"requiredAction":false,
+	"isRead":false,
+	"userId":1
+},{
+	"messageId":8,
+	"subject":"Your New Claim ",
+	"date":"2014-02-14",
+	"content":"Thank you for filing your claim. A claim examiner will call you to explain the next steps, confirm the details, and arrange for an auto ",
+	"requiredAction":true,
+	"isRead":false,
+	"userId":1
+},{
+	"messageId":9,
+	"subject":"Your Claim Status",
+	"date":"2014-02-28",
+	"content":"Your claim has been reviewed and is now approved. Your claim number is #2132312321, and you can track the status of your claim on your ",
+	"requiredAction":false,
+	"isRead":true,
+	"userId":1
+},{
+	"messageId":10,
+	"subject":"Rental Reimbursement Coverage Offer",
+	"date":"2014-03-03",
+	"content":"Rental Reimbursement is an optional coverage that helps pay your rental car costs while your car is being repaired as a result of a covered ",
+	"requiredAction":false,
+	"isRead":true,
+	"userId":1
+}]

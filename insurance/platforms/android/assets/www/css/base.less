@@ -1,0 +1,148 @@
+/**** colours ****/
+@color-green: #018282;
+@color-light-blue: #00b2ef;
+@color-blue: #00649d;
+@color-dark-blue: #004266; 
+@color-orange: #ff7a01;
+@color-yellow: #ffcf01;
+@color-red: #D9182D;
+@color-black: #000000;
+@color-white: #ffffff;
+@color-gray: #f6f6f6;
+@color-gray-1: #eeeff3;
+@color-gray-2: #c8c8d2;
+@color-gray-3: #757575;
+@color-gray-4: #656162;
+@color-gray-5: #414141;
+@color-text-shadow: #2e2e2f;
+
+/**** string constants ****/
+@dir-images: "../images";
+@dir-theme-images: "../themes/refactor_apps_1.4.2/images/icons-png";
+
+/**** size constants ****/
+@size-desktop: 1200px;
+@size-tablet: 767px;
+@size-phone: 480px;
+
+/**** import all other css / less files ****/
+
+@import "overrides_jqm_1.4.2.less";
+@import "widgets_1.4.2.less";
+@import "overrides_bootstrap.less";
+@import "login.less";
+@import "driver_detail.less";
+@import "change_license_info.less";
+@import "vehicles.less";
+@import "coverage.less";
+@import "home.less";
+@import "idcard.less";
+@import "message.less";
+@import "messages.less";
+@import "contact.less";
+@import "accident_report.less";
+@import "accident_report_confirm.less";
+@import "claim.less";
+@import "make_payment.less";
+@import "coverage_detail.less";
+@import "policy_selector.less";
+@import "select_martial.less";
+@import "side_menu.less";
+@import "splash_setting.less";
+@import "splash.less";
+
+
+/**** fonts ****/
+/*
+@font-face {
+	font-family: GothamCondensedLight;
+	font-weight: normal;
+	src: url('@{dir-fonts}/GothamCond-Light.otf');
+}
+*/
+
+/**** fix for css conflicts for google maps ****/
+.map img {
+	max-width: none;
+	height: auto
+}
+
+.map * {
+	box-sizing: content-box;
+}
+/****************************/
+
+/* Worklight container div */
+* {
+	box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#content {
+	position: relative;
+	font-size: 16px;
+	text-shadow: none;
+	height: 100%;
+}
+
+.ui-page {
+	min-height: 100%;
+	z-index: 1;
+	text-shadow: none;
+	background: white;
+	padding: 0px;
+	
+	/*hardware accleration*/
+	transform: translateZ(0);
+	/*backface-visibility: hidden;  */
+	perspective: 1000;
+}
+
+.ui-content {	
+
+	h1{
+		font-size: 24px;
+	}
+	h2{
+		font-size: 20px;
+	}
+	h3, h4, h5, h6{
+		font-size: 16px;
+	}
+	/**** split Line ****/
+	hr {
+		margin:0 -15px;
+		border-top:1px solid @color-gray-2;
+	}
+}
+
+/**** Commonly used styles for Insurance****/
+.rightText{
+	position:absolute;
+	top:50%;
+	right:30px;
+	margin-top:-.6em;
+}
+.spacingList.ui-listview{
+
+	border-bottom:2px solid @color-black;
+	
+	.rightText
+	{	
+		font-size:16px;
+		right:0;
+	}
+	
+	.ui-li-static {
+		padding: 1em 0;
+		border: 0;
+		border-bottom: 1px solid #c8c8d2;
+		margin: 0 15px;
+	}
+	@media screen and (max-width:@size-phone) {
+	  .ui-li-static
+		{
+			font-size: 12px;
+		}
+	}
+}

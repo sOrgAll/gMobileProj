@@ -1,0 +1,27 @@
+<div id="selectMartialPage" class="fullScreenPopover" data-role="page" data-class="com/views/SelectMartialPageView" data-close-btn="none">
+	
+	<div id="selectMartialPageHeader" data-role="header" data-theme="b" data-position="fixed">
+		<a id="backBtn" class="ui-btn-right greyBtn" data-role="none">%label.cancel%</a>
+		<h1>%driver.martial.change.title%</h1>
+	</div>
+	
+	<div data-role="content">
+        <ul id="martialList" data-role="listview" data-inset="false" data-theme="e" data-divider-theme="e">
+            <li data-role="list-divider">%driver.martial%</li>
+            <li>
+                <h2>%driver.martial.change.content%</h2>
+                <div class="radioList">
+                      <input type="radio" data-theme="e" name="radio-choice-v-2" id="singleRadio" value="yes">
+                      <label for="singleRadio">%driver.martial.change.option1%</label>
+                      <input type="radio" data-theme="e" name="radio-choice-v-2" id="marriedRadio" value="no">
+                      <label for="marriedRadio">%driver.martial.change.option2%</label>
+                </div>
+            </li>
+        </ul>
+        <div class="col-xs-12">
+         <button id="updateBtn" data-role="button" data-theme="b" >
+                        %label.update%</button>
+         </div>	
+     </div>
+			
+</div>

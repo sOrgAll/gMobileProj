@@ -1,0 +1,64 @@
+<div id="homePage" data-role="page" data-class="com/views/HomePageView">
+	
+	<div data-role="header" data-theme="b" data-position="fixed" data-tap-toggle="false">
+		<a href="#menuPanel" data-icon="bars" data-role="button" data-iconpos="notext" data-theme="d"></a>
+		<h1>%label.company.name%</h1>
+	</div>
+	
+	<div data-role="content">
+	
+		<div class="col-xs-12" id="homeContainer">
+        
+        	<div id="accountName">%home.welcome% <span id="username"></span>!</div>
+            
+			<div id="accountNumber">%home.label.policyNumber% 0098795341</div>
+            
+            <ul data-role="listview" data-inset="false" data-theme="d">
+                <li>
+                    <a href="manage.html">
+<!--                         <img src="../images/home/icon_manage.png" class="ui-li-icon"/> -->
+                        %label.manage%
+                    </a>
+                </li>
+                <li>
+					<a href="roadside_assistance.html">
+<!-- 						<img src="../images/home/icon_assistance.png" class="ui-li-icon"/> -->
+						%label.assistance%
+					</a>
+				</li>
+				<li>
+					<a href="claims.html">
+<!-- 						<img src="../images/home/icon_claims.png" class="ui-li-icon"/> -->
+						%home.label.claims%
+                    </a>
+                </li>
+                <li id="messages">
+                    <a href="messages.html">
+<!--                         <img src="../images/home/icon_messages.png" class="ui-li-icon"/> -->
+                        %label.messages%
+                        <span class="notificationBubbleSpan"></span>
+                    	<span class="urgentBubbleSpan"></span>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="contact.html">
+<!--                         <img src="../images/home/icon_contact.png" class="ui-li-icon"/> -->
+                        %label.contact%
+                    </a>
+                </li>
+<!--                 <li> -->
+<!--                     <a id="logoutBtn" href="javascript:void(0);" data-role="none" > -->
+<!--                         <img src="../images/home/icon_logout.png" class="ui-li-icon"/> -->
+<!--                         %label.logout% -->
+<!--                     </a> -->
+<!--                 </li> -->
+            </ul>
+            
+            <button id="claimFileBtn" data-role="button" data-theme="b">%home.accident.button%</button>
+		</div>
+	</div>
+	
+	<div id="menuPanel" data-role="panel" data-theme="b">
+	</div>
+</div>

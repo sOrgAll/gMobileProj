@@ -1,0 +1,105 @@
+[{
+	"coverageId":1,
+	"name": "Bodily Injury Liability",
+	"limit": "$100,000/$300,000",
+	"type" : "Personal & Passenger Coverage",
+	"definition": "Bodily injury liability pays for injuries or death found responsible by drivers under the car insurance policy post a motor vehicle accident, up to your policy limits.",
+	"covered":"Medical expenses, funeral expenses, legal defense expenses are covered. This does not include personal medical expenses, only injuries of others that you or driver under coverage is liable for.", 
+	"additionOptions": "For driver's personal injuries to be covered, you would need Medical Payments coverage."
+},{
+	"coverageId":2,
+	"name": "Property Damage Liability",
+	"limit": "$100,000",
+	"type" : "Personal & Passenger Coverage",
+	"definition": "Property damage liability pays for damages to someone else's property found responsible by drivers under the car insurance policy post a motor vehicle accident, up to your policy limits.",
+	"covered":"Damage expenses to another car, damage expenses caused to someone's house, tree, fence, etc., legal defense expenses if another party files a lawsuit against you regarding property damage.", 
+	"additionOptions": "For driver's personal injuries to be covered, you would need Medical Payments coverage."
+},{
+	"coverageId":3,
+	"name": "Medical Payments",
+	"limit": "$10,000",
+	"type" : "Personal & Passenger Coverage",
+	"definition": "Medical Payments pays for necessary medical care you receive as a result of an auto accident, regardless of party found responsible, up to your policy limits.",
+	"covered":"Medical expenses for driver under policy and any other passengers in vehicle at the time of the accident, expenses not covered by primary health-care insurance. Coverage is limited to medical treatment received within the first three years after an accident.", 
+	"additionOptions": "For property damage protection, you would need Property Damage Liability coverage."
+},{
+	"coverageId":4,
+	"name": "Uninsured Motorist",
+	"limit": "$100,000/$300,000",
+	"type" : "Personal & Passenger Coverage",
+	"definition": "Uninsured Motorist coverage pays for injuries to driver under policy and passengers when there is an accident found responsible for by the other driver who is considered \"uninsured\", up to your policy limits.",
+	"covered":"Medical expenses, property damage expenses that exceed the payment limits carried by a driver who is considered uninsured.", 
+	"additionOptions": "For property damage protection, you would need Property Damage Liability coverage."
+},{
+	"coverageId":5,
+	"name": "Comprehensive",
+	"limit": "$500 Deductible",
+	"type" : "Vehicle Coverage",
+	"definition": "Comprehensive coverage only pays the damages expenses that occur as a result of a non-collision incident.",
+	"covered":"Expenses for physical damage outside what is covered in Collision coverage, after deductible.", 
+	"additionOptions": "For property damage protection, you would need Property Damage Liability coverage."
+},{
+	"coverageId":6,
+	"name": "Collision",
+	"limit": "$500 Deductible",
+	"type" : "Vehicle Coverage",
+	"definition": "Collision coverage pays for repair or replace a vehicle damaged in a car accident for accidents that occur while driver under policy is driving insured vehicle.",
+	"covered": "Expenses for insured vehicle's physical damage that is sustained by when it hits, or is hit by, another vehicle, or another object.", 
+	"additionOptions": "For driver's personal injuries to be covered, you would need Medical Payments coverage."
+},{
+	"coverageId":7,
+	"name": "Uninsured Motorist Property Damage",
+	"limit": "Not Carried",
+	"type" : "Vehicle Coverage",
+	"definition": "Uninsured Motorist Property Damage pays for financial loss if driver under the car insurance policy is found responsible for a motor vehicle accident.",
+	"covered": "Expenses for damages to the insured vehicle in an accident caused by a driver who has no insurance coverage.", 
+	"additionOptions": "For driver's personal injuries to be covered, you would need Medical Payments coverage."
+},{
+	"coverageId":8,
+	"name": "Emergency Road Service",
+	"limit": "Full Coverage",
+	"type" : "Vehicle Coverage",
+	"definition": "Emergency Road Service provides you with 24-hour toll-free assistance, 365 days a year. Call 1-800-123-4567 to speak to a representative.",
+	"covered":"Emergency Towing, Emergency Lock-out service, Toll-free service calls.", 
+	"additionOptions": "For driver's personal injuries to be covered, you would need Medical Payments coverage."
+},{
+	"coverageId":9,
+	"name": "Rental Reimbursement",
+	"limit": "$40/day, $1000 max",
+	"type" : "Vehicle Coverage",
+	"definition": "Rental Reimbursement coverage pays the cost of the rental car driven by driver under the policy car and becomes stolen or disabled due to valid cause of loss, up to policy limits.",
+	"covered":"Expenses for rental vehicle after it has been damaged in an auto accident.", 
+	"additionOptions": "Valid only Comprehensive and/or Collision coverage is purchased."
+},{
+	"coverageId":10,
+	"name": "Multi-Car Discount",
+	"limit": "$20 savings",
+	"type" : "Discounts",
+	"definition": "The multi-car discount is automatically applied if more than one vehicle is on a single policy.",
+	"covered":"N/A", 
+	"additionOptions": "For driver's personal injuries to be covered, you would need Medical Payments coverage."
+},{
+	"coverageId":11,
+	"name": "Good Student Discount",
+	"limit": "$15.30 Savings",
+	"type" : "Discounts",
+	"definition": "Good student discount is applied for eligible young drivers who fall into the \"good student\" category of the insurance provider.",
+	"covered":"N/A", 
+	"additionOptions": "For driver's personal injuries to be covered, you would need Medical Payments coverage."
+},{
+	"coverageId":12,
+	"name": "Driver Training",
+	"limit": "$5 savings",
+	"type" : "Discounts",
+	"definition": "Discount is applied to driver training courses provided by affiliated organizations.",
+	"covered": "N/A", 
+	"additionOptions": "For driver's personal injuries to be covered, you would need Medical Payments coverage."
+},{
+	"coverageId":13,
+	"name": "Seatbelt Discount",
+	"limit": "$25 savings",
+	"type" : "Discounts",
+	"definition": "Seatbelt discount is applied after discussion with participating insurance provider.",
+	"covered": "N/A", 
+	"additionOptions": "For driver's personal injuries to be covered, you would need Medical Payments coverage."
+}]

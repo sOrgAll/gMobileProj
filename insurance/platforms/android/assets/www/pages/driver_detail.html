@@ -1,0 +1,35 @@
+<div id="driverDetailPage" data-role="page" data-class="com/views/DriverDetailPageView">
+	
+	<div data-role="header" data-theme="b" data-position="fixed">
+		<a data-rel="back" data-role="button" data-icon="back" data-iconpos="notext" data-theme="d">%label.back%</a>
+		<h1>%title.driver.detail%</h1>
+		<a href="home.html" data-icon="home" data-role="button" data-iconpos="notext" data-theme="d"></a>
+	</div>
+	
+	<div data-role="content">
+		<h2 id="driverName">Frankie Smith</h2>
+		<p id="vehicleName">Chevrolet Monte Carlo</p>
+		<ul id="driverDetail" data-role="listview" data-inset="false" data-theme="e" data-divider-theme="e">
+			<li data-role="list-divider">%driver.status%</li>
+			<li class="status">Active</li>
+			<li data-role="list-divider">%driver.gender%</li>
+			<li class="gender">Male</li>
+			<li data-role="list-divider">%driver.dob%</li>
+			<li class="birth">1997-08-02</li>
+			<li data-role="list-divider">%driver.martial%</li>
+			<li>
+				<a id="selectMartial" href="#" data-transition="slideup" data-rel="dialog">
+					<div class="marriage">Single</div>
+				</a>
+			</li>
+			<li data-role="list-divider">%driver.license%</li>
+			<li>
+				<a id="changeLicenseInfo" href="#" data-transition="slideup" data-rel="dialog">
+					<div class="license">****8472</div>
+					<div class="state">ILLINOIS</div>
+				</a>
+			</li>
+		</ul>
+	</div>
+			
+</div>

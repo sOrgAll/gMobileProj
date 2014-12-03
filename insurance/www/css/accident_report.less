@@ -1,0 +1,224 @@
+#accidentPage
+{
+	
+	#basicAccidentList
+	{
+		background:@color-gray-1;
+		
+		.ui-li-static
+		{
+			background:none;
+		}
+		
+		.ui-first-child
+		{
+			background: @color-gray-5;
+			border: 0;
+			color: @color-white;
+			margin:0;
+		}
+	}
+	
+	#policeAccidentList
+	{
+		background:@color-gray-1;
+		
+		.ui-li-static
+		{
+			background:none;
+		}
+	}
+	
+	.spacingList
+	{	
+		
+		.delPhoto 
+		{
+			height:auto;
+			padding:.2em 70px .2em 0;
+			text-align:left;
+			border-top:1px solid @color-gray-1;
+			position:relative;
+			margin:6px 10px -2px;
+			
+			.ui-li-thumb
+			{
+				float:none;
+				position: static;
+				max-width: 30%;
+				max-height: 80px;
+			}
+			
+			.rightText
+			{
+				margin-top:-12px;
+			}
+			
+			a[data-icon=delete]
+			{
+				border:0;
+				margin:0;
+				
+				.ui-icon
+				{ 
+					border-radius:0;
+					-webkit-border-radius:0;
+					background-image: url("@{dir-images}/accident_report/icon_del.png");
+					background-position:center;
+					background-size:contain;
+					margin:0;
+				}
+			}			
+		}	
+	
+		.camera
+		{
+			
+			 >.rightText
+			 {
+				top:10px;
+				margin-top:0;
+				
+					a
+					{
+						background: url("@{dir-images}/accident_report/icon_camera_grey.png") no-repeat;
+						background-size:contain;
+						text-indent:9999px;
+						overflow:hidden;
+						height:24px;
+						width:24px;
+						display:block;
+					}
+			 }
+			 
+
+		}	
+		
+		.camera.ui-btn.ui-btn-down-e
+		{
+			 .ui-icon-arrow-r 
+			 {
+				background-image: url("@{dir-images}/accident_report/icon_camera_white.png");
+			 }
+		}
+		
+		#isInjuried,#hasWitnesses
+		{
+			.rightText
+			{
+				margin-top:-20px;
+				
+				.ui-btn-inner
+				{
+					box-sizing:content-box;
+					-moz-box-sizing:content-box;
+					-webkit-box-sizing:content-box;
+				}
+			}
+		}
+		
+		#vehicleSelect,#driverSelect,#testimonyRecord
+		{
+			
+			a.ui-link-inherit{
+				padding-right:50%;
+				white-space:normal;
+			}
+			
+			.rightText
+			{
+				text-align:right;
+				width:40%;
+				right:30px;
+				font-size:12px;
+				text-overflow: ellipsis;
+				overflow: hidden;
+				white-space: nowrap;
+			}			
+		}
+		
+		#witnessName,#testimonyRecord{
+			padding-left:20px;
+		}
+		
+		#addWitness{
+			padding-left:20px;
+			padding-right:20px;
+		}
+		
+		
+		.audio.ui-btn
+		{
+			 .ui-icon-arrow-r 
+			 {
+				border-radius:0;
+				-webkit-border-radius:0;
+				background-image: url("@{dir-images}/accident_report/icon_audio.png");
+				height:24px;
+				width:24px;
+				margin-top:-12px;
+			 }
+			 
+			 a.ui-link-inherit
+			 {
+				padding-right:70px;
+				text-align:left;
+			}
+			
+			.rightText
+			{
+				right:60px;
+			}
+		}
+		
+		.audio.ui-btn.ui-btn-down-e
+		{
+			 .ui-icon-arrow-r 
+			 {
+				background-image: url("@{dir-images}/accident_report/icon_audio_white.png");
+			 }
+		}
+		
+	}
+	.ui-listview li a.ui-btn
+	{
+		border-top: 0;
+		border-bottom-width: 1px;
+		margin: 0 15px;
+		padding: 10px 0;
+	}
+	
+	@media screen and (max-width:@size-phone) {
+	  .ui-listview li a.ui-btn
+		{
+			font-size: 12px;
+		}
+	}
+	
+	.ellipsis
+	{
+		text-overflow: ellipsis;
+		width: 50%;
+		display: block;
+		overflow: hidden;
+		text-shadow: none;
+	}
+	
+	#testimonyRecordList
+		{
+			padding-left:20px;
+	
+			a , a:hover{
+				font-weight:normal;
+				color:@color-gray-3;
+				text-decoration: underline;
+			}
+	
+			@media screen and (max-width:@size-phone) {
+			  #playAudio , #stopAudio
+				{
+					font-size: 12px;
+				}
+			}
+		}
+}

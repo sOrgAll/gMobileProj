@@ -1,0 +1,35 @@
+<div id="billingPage" data-role="page" data-class="com/views/BillingPageView">
+	
+	<div data-role="header" data-theme="b" data-position="fixed">
+		<a href="policy_detail.html" data-role="button" data-icon="back" data-iconpos="notext" data-theme="d">%label.back%</a>
+		<h1>%label.billing%</h1>
+		<a href="home.html" data-icon="home" data-role="button" data-iconpos="notext" data-theme="d"></a>
+	</div>
+
+	<div data-role="content">
+	
+		<ul data-role="listview" class="spacingList" data-inset="false" data-theme="e" data-divider-theme="e">
+			<li data-role="list-divider">%billing.overview%</li>
+			<li>
+				<span>%billing.policy.balance%</span>
+				<span id="policyBalance" class="rightText">$268.20</span>
+			</li>
+			<li>
+				<span>%billing.last.payment%</span>
+				<span id="currBillAmount" class="rightText"></span>
+			</li>
+			<li>
+				<span>%billing.next.payment.due%</span>
+				<span id="nextBillAmount" class="rightText">$268.20 on 2013-09-15</span>
+			</li>
+		</ul>
+		
+		<ul data-role="listview" data-inset="false" data-theme="e" data-divider-theme="e">
+			<li><a id="makePayment" href="#">%billing.make.payment%</a></li>
+			<li><a id="paymentHistory" href="#">%billing.view.history%</a></li>
+<!-- 			<li><a href="javascript: void(0);">%billing.option.three%</a></li> -->
+		</ul>
+	
+	</div>
+		
+</div>

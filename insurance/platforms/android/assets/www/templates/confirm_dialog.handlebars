@@ -1,0 +1,17 @@
+<ul data-role="listview" data-inset="false" data-theme="e" data-divider-theme="e">
+	<li id="phoneNumber">
+		<div class="row" sytle="text-align: center">
+			<label id="title" style="width: 100%; text-align: center"><h1>{{#if title}}{{title}}{{/if}}</h1></label>
+		</div>
+	</li>
+	<li id="action">
+		<div class="row">
+			<div class="col-xs-6" style="border-right: 1px">
+				<button id="cancel" data-role="button" data-theme="a">{{#if leftButton}}{{leftButton}}{{/if}}</button>
+			</div>
+			<div class="col-xs-6">
+				<button id="confirm" data-role="button" data-theme="b">{{#if rightButton}}{{rightButton}}{{/if}}</button>
+			</div>
+		</div>
+	</li>
+</ul>

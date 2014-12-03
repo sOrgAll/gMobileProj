@@ -1,0 +1,113 @@
+<div id="accidentPage" data-role="page" data-class="com/views/AccidentReportPageView">
+	
+	<div data-role="header" data-theme="b" data-position="fixed" data-tap-toggle="false">
+		<a data-rel="back" data-role="button" data-icon="back" data-iconpos="notext" data-theme="d">%label.back%</a>		
+		<h1>%accident.title%</h1>
+		<a href="home.html" data-icon="home" data-role="button" data-iconpos="notext" data-theme="d"></a>
+	</div>
+	<div data-role="content">
+		<ul id="basicAccidentList" class="spacingList" data-role="listview" data-inset="false" data-theme="e" data-divider-theme="e">
+			<li data-role="list-divider"><div class="ellipsis">%accident.subtitle%</div></li>
+			<li data-id="reportDate"><div class="ellipsis">%accident.date.key%</div><div id="accidentDate" class="rightText"></div></li>
+			<li data-id="reportTime"><div class="ellipsis">%accident.time.key%</div><div id="accidentTime" class="rightText"></div></li>
+         </ul>
+		 <ul id="otherAccidentList" class="spacingList" data-role="listview" data-inset="false" data-theme="e" data-divider-theme="e">		
+				
+			<li id="reportDocument" class="camera">
+				<div class="ellipsis">%accident.location.document.key%</div>
+                <div id="reportCameraWrapper" class="rightText">
+                	<a id="locationCamera" href="#">Camera</a>
+                </div>
+			</li>	
+				
+			<li id="isInjuried">%accident.injury.key%
+				<div class="rightText">
+						<form>
+							<fieldset id="isInjuried_fieldset" data-role="controlgroup" data-type="horizontal" data-mini="true">
+								<input type="radio" data-theme="a" name="radio-choice-h-6" id="isInjuried_yes" value="Yes">
+							    <label value="Yes" type="isInjuried" for="isInjuried_yes">%label.yes%</label>
+							    <input type="radio" data-theme="a" name="radio-choice-h-6" id="isInjuried_no" value="No">
+							    <label value="No" type="isInjuried" for="isInjuried_no">%label.no%</label>
+							</fieldset>
+						</form>
+				</div>
+			</li>
+					 
+			<li id="vehicleSelect">
+            <a id="selectedVehicle" href="select_vehicle.html?onSelectToPage=accident_report.html" data-transition="slideup" data-rel="dialog"><div class="ellipsis">%accident.select.vehicle.key%</div>
+            <div class="rightText">
+					%accident.select.common%
+				</div></a>
+			</li>
+			
+			<li id="driverSelect">
+            <a id="selectedDriver" data-rel="dialog"><div class="ellipsis">%accident.select.driver.key%</div>
+				<div class="rightText">
+					%accident.select.common%
+				</div></a>
+			</li>
+			
+			<li id="reportDamages" class="camera">
+				<div class="ellipsis">%accident.damages.document.key%</div>
+                <div id="damagesCameraWrapper" class="rightText">
+                	<a id="damagesCamera" href="#">Camera</a>
+                </div>
+			</li>		
+				
+			<li id="hasWitnesses">%accident.witnesses.key%
+				<div class="rightText">
+						<form>
+							<fieldset id="hasWitnesses_fieldset" data-role="controlgroup" data-type="horizontal" data-mini="true">
+								<input type="radio" data-theme="a" name="radio-choice-h-6" id="hasWitnesses_yes" value="Yes">
+							    <label value="Yes" type="hasWitnesses" for="hasWitnesses_yes">%label.yes%</label>
+							    <input type="radio" data-theme="a" name="radio-choice-h-6" id="hasWitnesses_no" value="No">
+							    <label value="No" type="hasWitnesses" for="hasWitnesses_no">%label.no%</label>
+							</fieldset>
+						</form>
+				</div>
+			</li>
+			
+			<li id="witnessName" style="display:none;">
+				<a href="select_witness.html" ><div class="ellipsis">%accident.testimony.witness.name%</div></a>
+			</li>
+			
+			<li id="testimonyRecord" class="audio" style="display:none;">
+				<a href="#" ><div id="testimony" class="ellipsis">%accident.testimony.record.key%</div>
+					<div id="savedRecordTip" class="rightText" ></div>
+				</a>
+			</li>
+			<li id="testimonyRecordList" style="display:none;">
+					<div id="playAudio" class="ellipsis"><a>Play Audio</a></div>
+					<div id="stopAudio" class="rightText"><a>Stop Audio</a></div>
+			</li>
+			
+			<li id="addWitness" style="display:none;">
+				<button id="addWitnessBtn" data-theme="c">%accident.testimony.witness.add%</button>
+			</li>
+		</ul>
+		
+		<ul id="policeAccidentList" class="spacingList" data-role="listview" data-inset="false" data-theme="e" data-divider-theme="e">
+			<li><label for="policeTextLabel">Police Case #</label>
+			<input id="policeText" data-theme="e" name="policeText" type="text" placeholder="Enter Case #" />
+			</li>
+        </ul>
+        
+     <div class="row">
+		<div class="col-xs-6">
+			<button id="cancelBtn" data-theme="c">%label.cancel%</button>
+		</div>
+		<div class="col-xs-6">
+			<button id="submitBtn" data-theme="b">%label.submit%</button>
+		</div>
+	</div>	
+            
+	</div>
+	
+		
+	<div data-role="panel" id="menuPanel" data-theme="b"></div>
+	
+
+	
+</div>
+
+

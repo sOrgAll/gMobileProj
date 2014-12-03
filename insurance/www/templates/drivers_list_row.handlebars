@@ -1,0 +1,10 @@
+{{#each drivers}}
+<li class="driver" data-id="{{this.id}}">
+	<a href="javascript: void(0);">
+		<img src="{{this.image}}" />
+		<h3>{{this.fname}} {{this.lname}}</h3>
+		<p><strong>Status:</strong> {{this.status}}</p>
+		<p><strong>License #:</strong> {{this.license}}</p>
+	</a>
+</li>
+{{/each}}

@@ -1,0 +1,66 @@
+{
+	"vehicles" : 
+	[
+	 	{
+			"vehicleId":1,
+			"name":"Chevrolet Monte Carlo",
+			"license":"839-471",
+			"vin":"3KVLL7AJ8AN348766",
+			"image":"../images/cars/car_monte_carlo.jpg",
+			"userId":1,
+			"driverIds":[{
+				"driverId":1
+			},{
+				"driverId":2
+			}]
+		},{
+			"vehicleId":2,
+			"name":"Dodge Viper SRT10",
+			"license":"923-841",
+			"vin":"3KVLL7AJ8AN348767",
+			"image":"../images/cars/car_dodge_viper.jpg",
+			"userId":2,
+			"driverIds":[{
+				"driverId":3
+			},{
+				"driverId":4
+			}]
+		},{
+			"vehicleId":3,
+			"name":"Ford Mustang Fastback",
+			"license":"234-843",
+			"vin":"3KVLL7AJ8AN348768",
+			"image":"../images/cars/car_ford_mustang.jpg",
+			"userId":3,
+			"driverIds":[{
+				"driverId":5
+			},{
+				"driverId":6
+			}]
+		},{
+			"vehicleId":4,
+			"name":"Infiniti G35",
+			"license":"231-231",
+			"vin":"3KVLL7AJ8AN348769",
+			"image":"",
+			"userId":4,
+			"driverIds":[{
+				"driverId":7
+			},{
+				"driverId":8
+			}]
+		},{
+			"vehicleId":5,
+			"name":"Hyundai Sonata",
+			"license":"345-243",
+			"vin":"3KVLL7AJ8AN348770",
+			"image":"",
+			"userId":5,
+			"driverIds":[{
+				"driverId":9
+			},{
+				"driverId":10
+			}]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"policies" : 
+	[
+		 {
+			"policyId":1,
+			"policyName":"Auto",
+			"userId":1
+		},{
+			"policyId":2,
+			"policyName":"Home",
+			"userId":1
+		},{
+			"policyId":3,
+			"policyName":"Life",
+			"userId":1
+		},{
+			"policyId":4,
+			"policyName":"Health",
+			"userId":2
+		}
+	]
+}

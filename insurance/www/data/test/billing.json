@@ -1,0 +1,61 @@
+[{
+	"billingId" : 1,
+	"vehicleId" : 1,
+	"policyBalance" : 273.6,
+	"nextBillAmount" : 91.2,
+	"nextBillDate" : "2013-08-15"
+},{
+	"billingId" : 2,
+	"vehicleId" : 2,
+	"policyBalance" : 573.6,
+	"nextBillAmount" : 91.2,
+	"nextBillDate" : "2013-09-15"
+},{
+	"billingId" : 3,
+	"vehicleId" : 3,
+	"policyBalance" : 0,
+	"nextBillAmount" : 91.2,
+	"nextBillDate" : "2013-10-15"
+},{
+	"billingId" : 4,
+	"vehicleId" : 4,
+	"policyBalance" : 91.2,
+	"nextBillAmount" : 91.2,
+	"nextBillDate" : "2013-11-15"
+},{
+	"billingId" : 5,
+	"vehicleId" : 5,
+	"policyBalance" : 182.4,
+	"nextBillAmount" : 91.2,
+	"nextBillDate" : "2013-12-15"
+},{
+	"billingId" : 6,
+	"vehicleId" : 6,
+	"policyBalance" : 0,
+	"nextBillAmount" : 95.2,
+	"nextBillDate" : "2014-01-15"
+},{
+	"billingId" : 7,
+	"vehicleId" : 7,
+	"policyBalance" : 95.2,
+	"nextBillAmount" : 95.2,
+	"nextBillDate" : "2014-02-15"
+},{
+	"billingId" : 8,
+	"vehicleId" : 8,
+	"policyBalance" : 190.4,
+	"nextBillAmount" : 95.2,
+	"nextBillDate" : "2014-03-15"
+},{
+	"billingId" : 9,
+	"vehicleId" : 9,
+	"policyBalance" : 0,
+	"nextBillAmount" : 95.2,
+	"nextBillDate" : "2014-04-15"
+},{
+	"billingId" : 10,
+	"vehicleId" : 10,
+	"policyBalance" : 95.2,
+	"nextBillAmount" : 95.2,
+	"nextBillDate" : "2014-05-15"
+}]

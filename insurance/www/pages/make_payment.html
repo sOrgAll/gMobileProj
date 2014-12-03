@@ -1,0 +1,106 @@
+<div id="makePayment" data-role="page" data-class="com/views/MakePaymentPageView">
+
+	<div data-role="header" data-theme="b" data-position="fixed" data-tap-toggle="false">
+		<a data-rel="back" data-role="button" data-icon="back" data-iconpos="notext" data-theme="d">%label.back%</a>
+		<h1>%title.makePayment%</h1>
+		<a href="home.html" data-role="button" data-icon="home" data-iconpos="notext" data-theme="d">%label.home%</a>
+	</div>
+	
+	<div data-role="content">
+		<ul data-role="listview" class="spacingList" data-inset="false" data-theme="e" data-divider-theme="e">
+			<li id="balanceDivider" data-role="list-divider">%makePayment.list.divider.Balance%</li>
+			<li>
+				<span>%makePayment.totalPremium%</span>
+				<span id="premium" class="rightText">$536.40</span>
+			</li>
+			<li>
+				<span>%makePayment.lastPayment%</span>
+				<span id="payment" class="rightText">$268.20 on 2013-11-15</span>
+			</li>
+		</ul>
+		<ul data-role="listview" data-inset="false" data-theme="e" data-divider-theme="e">
+			<li data-role="list-divider">%makePayment.list.divider.Details%</li>
+			<li>
+            	<div class="row">
+                  <div class="col-xs-6" id="paContainer">
+                      <label for="detail">%makePayment.input.amount%</label>
+                      <input type="text" data-theme="e" name="detail" id="detail" value="$91.20">
+                  </div>
+                  <div class="col-xs-6" id="pdContainer">
+                      <label for="paymentDate">%makePayment.input.date%</label>
+                      <div class="input-group date form_datetime" data-link-field="dtp_input1">
+                          <input class="form-control" type="text" id="paymentDate" value="" readonly>
+                          <span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+                      </div>
+                  </div>	
+                </div>		
+			</li>
+			<li data-role="list-divider">%makePayment.list.divider.Type%</li>
+			<li>
+            	<div class="radioList">
+	       		<label for="account">%makePayment.input.account%</label>
+				<input type="radio" data-theme="e" name="radio-choice-1" id="account" value="account">
+	       		<label for="card">%makePayment.input.card%</label>
+				<input type="radio" data-theme="e" name="radio-choice-1" id="card" value="card">
+                </div>
+			</li>
+		</ul>
+		<div id="accountCardInfo" style="display:none;">
+			<div id="accountDiv">
+				<label for="accountNum">%makePayment.input.accountNum%</label>
+				<input type="text" data-theme="e" name="accountNum" id="accountNum" value="">
+				<label for="confirmAccountNum">%makePayment.input.confirmAccountNum%</label>
+				<input type="text" data-theme="e" name="confirmAccountNum" id="confirmAccountNum" value="">
+				<label for="routing">%makePayment.input.routingNum%</label>
+				<input type="text" data-theme="e" name="routing" id="routing" value="">
+			</div>
+			<div id="cardDiv">
+				<label for="cardNum">%makePayment.input.cardNum%</label>
+				<input type="text" data-theme="e" name="cardNum" id="cardNum" value="">
+				<label for="securityCode">%makePayment.input.securityCode%</label>
+				<input type="text" data-theme="e" name="securityCode" id="securityCode" value="">
+				
+				<label id="expirationDate" class="ui-input-text">%makePayment.input.expirationDate%</label>
+				<div class="row">
+                  <div class="col-xs-6" id="emContainer">
+				    	<select id="expirationMonthList" data-theme="e">
+							<option>01</option>
+			                <option>02</option>
+			                <option>03</option>
+			                <option>04</option>
+			                <option>05</option>
+			                <option>06</option>
+			                <option>07</option>
+			                <option>08</option>
+			                <option>09</option>
+			                <option>10</option>
+			                <option>11</option>
+			                <option>12</option>
+				    	</select>
+					</div>
+				    <div class="col-xs-6" id="eyContainer">
+				    	<select id="expirationYearList" data-theme="e">
+						</select>
+					</div>
+				</div>
+				<label for="billingZipCode">%makePayment.input.billingZipCode%</label>
+				<input type="text" data-theme="e" name="billingZipCode" id="billingZipCode" value="">
+			</div>
+			<div class="checkboxList">
+            	<label for="savePayment">%makePayment.checkbox.savePayment%</label>
+                <input type="checkbox" data-theme="e" name="savePayment" id="savePayment" data-mini="true"/>
+                <label for="enrollCard">%makePayment.checkbox.enrollCard%</label>
+                <input type="checkbox" data-theme="e" name="enrollCard" id="enrollCard" data-mini="true"/>
+            </div>
+			<div id="buttonRow" class="row">
+				<div class="col-xs-6">
+					<button id="cancel" data-role="button" data-theme="c">%makePayment.btn.cancel%</button>
+				</div>
+				<div class="col-xs-6">
+					<button id="submit" data-role="button" data-theme="b">%makePayment.btn.submit%</button>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+</div>
